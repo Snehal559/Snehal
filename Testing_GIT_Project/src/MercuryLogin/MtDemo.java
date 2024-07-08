@@ -73,7 +73,7 @@ public class MtDemo {
 			System.out.println("***Database close***");
 		}
 
-	 @AfterSuite(enabled = false) 
+	 @AfterSuite
 	 public void CloseBrowser() {
 		 System.out.println("***Close-Browser***");
 		 driver.close();
