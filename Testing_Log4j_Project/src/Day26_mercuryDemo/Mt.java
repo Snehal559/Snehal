@@ -65,6 +65,7 @@ public class Mt {
 		driver.findElement(By.xpath("//input[@name='confirmPassword']")).sendKeys("Abcd@123");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		log.info("Mt login Successful");
+		System.out.println("Changes in Git");
 	}	
 }
 
